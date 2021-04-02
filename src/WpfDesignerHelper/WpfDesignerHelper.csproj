@@ -7,8 +7,10 @@
     <Authors>dotnetKyle</Authors>
     <Company />
     <Product>WPF Designer Helper</Product>
+    <Title>WPF Designer Helper</Title>
     <Description>Run code when only in design mode in Visual Studio.  Useful for simulating data binding in the Visual Studio designer.
-use: if(Designer.Active == true) in a ViewModel class constructor in WPF, then set properties.</Description>
+use: if(Designer.Active == true) in a ViewModel class constructor in WPF, then set properties.
+View Project URL (github) for full usage</Description>
     <PackageProjectUrl>https://github.com/dotnetKyle/wpf-designer-helper/blob/stable/README.md</PackageProjectUrl>
     <RepositoryUrl>https://github.com/dotnetKyle/wpf-designer-helper</RepositoryUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
@@ -17,7 +19,7 @@ use: if(Designer.Active == true) in a ViewModel class constructor in WPF, then s
     <PackageReleaseNotes>First release</PackageReleaseNotes>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-    <Version>0.0.3</Version>
+    <Version>1.0.0</Version>
   </PropertyGroup>
 
 </Project>
