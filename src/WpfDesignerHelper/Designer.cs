@@ -5,7 +5,7 @@ using System.Windows;
 
 namespace WpfDesignerHelper
 {
-    internal static class Designer
+    public static class Designer
     {
         public static bool Active
         {
