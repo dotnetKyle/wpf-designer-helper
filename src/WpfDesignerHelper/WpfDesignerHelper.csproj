@@ -1,8 +1,23 @@
-<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFrameworks>netcoreapp3.1;net5.0-windows</TargetFrameworks>
     <UseWPF>true</UseWPF>
+    <PackageId>dotnetKyle.WpfDesignerHelper</PackageId>
+    <Authors>dotnetKyle</Authors>
+    <Company />
+    <Product>WPF Designer Helper</Product>
+    <Description>Run code when only in design mode in Visual Studio.  Useful for simulating data binding in the Visual Studio designer.
+use: if(Designer.Active == true) in a ViewModel class constructor in WPF, then set properties.</Description>
+    <PackageProjectUrl>https://github.com/dotnetKyle/wpf-designer-helper/blob/stable/README.md</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/dotnetKyle/wpf-designer-helper</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Copyright>2021 dotnetKyle</Copyright>
+    <PackageTags>dotnetkyle wpf designer helper active viewmodel</PackageTags>
+    <PackageReleaseNotes>First release</PackageReleaseNotes>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Version>0.0.3</Version>
   </PropertyGroup>
 
 </Project>
